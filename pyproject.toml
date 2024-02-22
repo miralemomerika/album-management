@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "rebel-internet-fastapi"
+version = "0.1.0"
+description = "Project for managing albums and users from different music streaming platforms"
+authors = ["miralemuw <miralem.upwork@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rebel_internet_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = "^0.26.0"
+sqlalchemy = "^2.0.25"
+python-dotenv = "^1.0.0"
+setuptools = "^69.0.3"
+pre-commit = "^3.6.0"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+pyjwt = "^2.8.0"
+bcrypt = "^4.1.2"
+pydantic = "^2.5.3"
+pydantic-settings = "^2.1.0"
+email-validator = "^2.1.0.post1"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
